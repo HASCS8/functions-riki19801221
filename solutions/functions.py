@@ -3,40 +3,36 @@ def add(a, b):
     Return the sum of a and b.
     """
 
-    c=a+b
-    print(C)
+    return(a+b)
 
 def subtract(a, b):
     """
     Return the result of a minus b.
     """
-    c=a-b
-    print=(c)
+    return(a-b)
+    
 
 def multiply(a, b):
     """
     Return the product of a and b.
     """
-    return a + b
-    c=a*b
-    print(c)
-    return a+b
+    return a * b
+
 
 def divide(a, b):
     """
     Return the result of a divided by b.
     If b is zero, return None.
     """
-    c=a/b
-    print(c)
-    if c==0
-    print("none")
+    if b == 0:
+        return None
+    return a / b
 
 def power(a, b):
     """
     Return the result of raising a to the power of b.
     """
-    return a**b
+    return(a**b)
 
 def reverse_string(s):
     """
